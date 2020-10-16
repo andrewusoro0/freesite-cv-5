@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Montserrat' sans-serif;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient( to right,#a517ba,#5f1783);
+    padding: 0 !important;
+}
+.navbar-brand{
+    height: 40px;
+    padding-left: 20px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+
+}
+.navbar-nav,li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    float: right;
+    text-align: left;
+    font-weight: 600;
+}
+.navbar-toggler{
+    outline: none;
+}
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+.btn:hover{
+    background-color: blueviolet;
+}
+
+
+/* bannner section */
+#banner{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    padding-top: 5%;
+    color: #fff;
+}
+.promo-tilte{
+    font-size: 40px;
+    font-weight: 600%;
+    margin-top: 100px;
+}
+.enroll{
+    padding-top: 5%;
+}
+.bottom-img{
+    width: 100%;
+}
+
+/* ----------service section------- */
+#service{
+    padding: 80px 0;
+}
+.service-img{
+    width: 100px;
+    margin-top: 30px;
+}
+.services {
+    padding: 20px;
+}
+.service h4{
+    padding:5px ;
+    margin-top: 25px;
+    text-transform: uppercase;
+    
+}
+/* .title::before{ */
+    /* content: ;
+    background-color:#7b1798 ;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after{
+    content: ;
+    background-color:#7b1798 ;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+} */
+#serivce,.btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+} 
+
+/* ---------------about-us section------------- */
+
+#about-us{
+    background: #f8f9fa;
+    padding-bottom:50px ;
+    padding-top: 50px;
+}
+.about-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+.about-us,ul li{
+    margin: 10px 0;
+}
+ul{
+    margin-left: 20px;
+}
+/* ------------------testimonial section-------- */
+#testimonial{
+    margin: 100px 0;
+
+}
+.testimonials{
+    border-left: 4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* margin-left: 20px; */
+}
+.testimonials img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-details{
+    display: inline-block;
+    font-size: 20px;
+}
+/* -------------------------social-media-------- */
+#social-media{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+#social-media p{
+    font-size: 36px;
+    font-weight:600 ;
+    margin-bottom: 30px;
+}
+.social-icons img{
+    width: 100px;
+    transition: 0.5s;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+
+}
+/* -------------footer setion --------------- */
+
+#footer{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    color: #fff;
+}
+.footer-img{  
+    width: 100%;
+}
+.footer-box{
+    padding: 20px;
+}
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.from-control .footer-box{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top:25px ;
+    max-width: 250px;
+
+}
+.footer-box .btn-primary{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top:30px ;
+    margin-bottom: 30px;
+}
+hr{
+    background: #fff;
+}
+.copyright{
+    margin-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+
+}
+
